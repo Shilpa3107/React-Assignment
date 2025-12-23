@@ -9,6 +9,11 @@ npx create-react-app@latest devtask
 
 This command will install all packages like react, react-dom and react-scripts with cra-template.
 
+### install npm modules
+```bash
+npm install
+```
+
 ### To install react router
 ```bash
 npm install react-router-dom
@@ -27,3 +32,4 @@ npm start
 ```
 
 Application starts running at http://localhost:3000
+
