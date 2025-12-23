@@ -30,6 +30,11 @@ npm run build
 cd devtask
 npm start
 ```
+### Restart the dev server
+```bash
+npm start
+```
 
 Application starts running at http://localhost:3000
+
 
