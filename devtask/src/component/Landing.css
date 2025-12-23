@@ -1,0 +1,46 @@
+.signup{
+    color:white;
+    background-color:blue;
+    cursor:pointer;
+    border:none;
+    border-radius:6px 6px;
+    height: 40px;
+    width:300px;
+    font-weight:bold;
+    font-size:15px;
+    text-align:center;
+}
+.login{
+     color:black;
+    background-color:rgba(242, 229, 249, 1);
+    cursor:pointer;
+    border:none;
+    border-radius:6px 6px;
+    height:40px;
+    width:300px;
+    font-weight:bold;
+    font-size:15px;
+    text-align:center;
+}
+button{
+    display:block;
+    margin:7px;
+    cursor:pointer;
+}
+.content{
+    color: rgb(120,120,120);
+}
+@media(max-width:600px){
+.main-content{
+    padding-top:505px;
+}
+}
+@media(max-width:400px) and (max-height:700px){
+    .main-content{
+    padding-top:385px;
+}
+}
+
+h2, button, p{
+    padding-left:12px;
+}

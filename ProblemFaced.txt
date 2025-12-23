@@ -1,2 +1,4 @@
 1. I have used "npx create-react-app" command for installing all packages and dependencies but it was old version and my system want to have latest release (5.1.0). So, I have used the command "npx create-react-app@latest".
 2. I have named the file "devTask" while creating the file but it violates the npm naming convention and has caused restrictions which says "name can no longer contain capital letters". So, I changed the name to "devtask".
+3. Module not found: Error: Can't resolve 'src/component/Landing.js' in 'C:\Users\shilp\Desktop\devTask\devtask\src'
+4. To create a production build use command npm run build.
