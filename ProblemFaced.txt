@@ -2,3 +2,9 @@
 2. I have named the file "devTask" while creating the file but it violates the npm naming convention and has caused restrictions which says "name can no longer contain capital letters". So, I changed the name to "devtask".
 3. Module not found: Error: Can't resolve 'src/component/Landing.js' in 'C:\Users\shilp\Desktop\devTask\devtask\src'
 4. To create a production build use command npm run build.
+5. To move from one page to another without reloading the page, I used React Router.
+6. Input tag is a self closing tag
+7. Imported BrowserTag but never used
+8. Faced "Cannot read properties of null" error because react and react-router-dom version mismatch. So I downgrade React to 18 as it was stable and well tested. For this, used the command : npm install react@18 react-dom@18
+9. I have used fieldset and legend to make the name over the field name
+10. The css style of landing page working globally and affecting the login page. To resolve this, change the login page className as they had same class names.
