@@ -1,15 +1,15 @@
 
-body{
-    background-color: rgb(240, 244, 248);
+.content body{
+    background-color: rgb(247, 248, 249);
     margin:0;
     color:black
 }
-p{
+.content p{
     color: rgb(120,120,120);
 }
-button{
+.content button{
     height: 40px;
-    width:323px;
+    width:273px;
     cursor:pointer;
     border-radius:8px;
     border:none;
@@ -18,18 +18,18 @@ button{
     cursor:pointer;
 }
 .content{
-    padding-left:20px;
+    padding-left:10px;
 }
-fieldset{
-    width:300px;
-    height: 32px;
+.content fieldset{
+    width:250px;
+    height: 28px;
     color:rgb(166, 158, 158);
-    border-radius:15px;
+    border-radius:10px;
     display:block;
-    margin:6px;
+    margin:4px 0 10px;
 
 }
-fieldset legend{
+.content fieldset legend{
     font-size:12px;
     color:rgb(113, 113, 233)
 }

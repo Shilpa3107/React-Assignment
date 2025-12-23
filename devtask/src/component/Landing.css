@@ -1,7 +1,7 @@
 body{
-    background-color: rgb(240, 244, 248);
+    background-color: rgb(247, 248, 249);
 }
-.signup{
+ .main-content .signup{
     color:white;
     background-color:blue;
     cursor:pointer;
@@ -13,7 +13,7 @@ body{
     font-size:15px;
     text-align:center;
 }
-.login{
+ .main-content .login{
      color:black;
     background-color:rgba(242, 229, 249, 1);
     cursor:pointer;
@@ -25,12 +25,16 @@ body{
     font-size:15px;
     text-align:center;
 }
-button{
+ .main-content button{
     display:block;
     margin:7px;
     cursor:pointer;
 }
-.login a{
+ .main-content .login a{
+    text-decoration:none;
+    color:inherit; /* same color has button */
+}
+ .main-content .signup a{
     text-decoration:none;
     color:inherit; /* same color has button */
 }
@@ -49,6 +53,6 @@ button{
 }
 }
 
-h2, button, p{
+ .main-content h2, button, p{
     padding-left:12px;
 }
