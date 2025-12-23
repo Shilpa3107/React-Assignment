@@ -1,0 +1,35 @@
+
+body{
+    background-color: rgb(240, 244, 248);
+    margin:0;
+    color:black
+}
+p{
+    color: rgb(120,120,120);
+}
+button{
+    height: 40px;
+    width:323px;
+    cursor:pointer;
+    border-radius:8px;
+    border:none;
+    background-color: rgb(197, 200, 204);
+    color:white;
+    cursor:pointer;
+}
+.content{
+    padding-left:20px;
+}
+fieldset{
+    width:300px;
+    height: 32px;
+    color:rgb(166, 158, 158);
+    border-radius:15px;
+    display:block;
+    margin:6px;
+
+}
+fieldset legend{
+    font-size:12px;
+    color:rgb(113, 113, 233)
+}
