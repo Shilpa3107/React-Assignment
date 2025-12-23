@@ -1,11 +1,16 @@
 import './App.css';
 import Landing from './component/Landing';
+import LoginScreen from './component/LoginScreen';
+import {Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
-     <div className = "Landing page">
-    <Landing />
-    </div>
+    <>
+     <Routes>
+     <Route path="/" element={<Landing />} />
+     <Route path="/login" element ={<LoginScreen />} />
+     </Routes>
+     </>
   );
 }
 
