@@ -7,7 +7,7 @@ function Landing(){
     <h2>Welcome to PopX</h2>
     <p className="content">Lorem ipsum dolor sit amet, 
     <br/>consectetur adipiscing elit.</p>
-    <button className="signup"> Create Account </button>
+    <button className="signup"><Link to="/sign"> Create Account </Link></button>
     <button className = "login"><Link to="/login"> Already Registered? Login </Link> </button>
     </div>
    
