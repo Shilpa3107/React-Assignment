@@ -1,4 +1,5 @@
 import './SignUp.css';
+import {Link} from 'react-router-dom';
 function SignUp(){
     return(
         <div className = "contents">
@@ -25,7 +26,7 @@ function SignUp(){
         <input type="radio" checked/>Yes 
         <input type="radio"/>No
         <br/>
-        <button> Create Account </button>
+        <button><Link to="/account"> Create Account</Link> </button>
         </div>
     );
 

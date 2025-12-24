@@ -1,0 +1,75 @@
+.account-content .section{
+    width:100%;
+    height: 25px;
+    background-color: white;
+    padding:15px 9px 8px; 
+    font-style: normal;   
+}
+.account-content body{
+     background-color: rgb(252, 252, 252);
+}
+.account-content hr{
+    border-top: dotted rgb(192, 192, 192);
+    width: 100%;
+}
+.account-content .profile{
+    display:flex;
+    align-items:center;
+}
+.account-content h4{
+    padding-left:10px;
+}
+.account-content .descrip{
+   color:rgb(80, 80, 80);
+   font-size:12px;
+   padding-bottom: 80px;
+}
+.account-content .email{
+    font-size:13px;
+    padding-bottom:80px;
+}
+.account-content img{
+    width:120px;
+    height:100px;
+    border-radius: 50%;
+    padding-bottom:80px;
+}
+.account-content h4, .account-content .email{
+    margin:0;
+    padding:0;
+}
+.account-content img,
+.account-content .email,
+.account-content .descrip {
+  padding-bottom: 0;
+}
+.account-content .profile {
+  margin-bottom: 12px;
+}
+.account-content .profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.account-content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.account-content .info h4 {
+  margin: 0;
+}
+
+.account-content .info .email {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: gray;
+}
+.account-content .descrip {
+  margin-top: 8px;
+  font-size: 12px;
+  color: rgb(80, 80, 80);
+}

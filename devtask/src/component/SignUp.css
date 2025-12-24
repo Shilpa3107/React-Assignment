@@ -26,6 +26,10 @@
     margin-top: 160px;
     cursor: pointer;
 }
+.contents button a{
+    text-decoration:none;
+    color:inherit;
+}
 .required{
     color:red;
     margin-left:1px;

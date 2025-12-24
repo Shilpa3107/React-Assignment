@@ -1,4 +1,5 @@
 import './LoginScreen.css';
+import {Link} from 'react-router-dom';
 function LoginScreen(){
     return(
         <div className = "content">
@@ -14,7 +15,7 @@ function LoginScreen(){
             <legend>Password</legend>
             Enter password
         </fieldset>
-        <button>Login</button>
+        <button><Link to = "/account">Login</Link></button>
         </div>
     );
 }
