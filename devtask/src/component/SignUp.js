@@ -26,6 +26,9 @@ function SignUp(){
         <input type="radio" checked/>Yes 
         <input type="radio"/>No
         <br/>
+        <br/>
+        <br/>
+        <br/>
         <button><Link to="/account"> Create Account</Link> </button>
         </div>
     );

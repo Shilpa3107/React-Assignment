@@ -2,7 +2,7 @@
     background-color: rgb(189, 202, 216);
 }
 .contents fieldset{
-    width:250px;
+    width:340px;
     height: 25px;
     color:black;
     border-radius:10px;
@@ -17,7 +17,7 @@
 }
 .contents button{
     margin-left:2px;
-    width:280px;
+    width:370px;
     height:40px;
     border:none;
     border-radius:5px;

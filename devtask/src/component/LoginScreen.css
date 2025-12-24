@@ -9,7 +9,7 @@
 }
 .content button{
     height: 40px;
-    width:273px;
+    width:350px;
     cursor:pointer;
     border-radius:8px;
     border:none;
@@ -25,7 +25,7 @@
     padding-left:10px;
 }
 .content fieldset{
-    width:250px;
+    width:323px;
     height: 28px;
     color:rgb(166, 158, 158);
     border-radius:10px;
